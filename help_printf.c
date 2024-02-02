@@ -11,7 +11,7 @@ int help_printf(const char *format, va_list *args, fmt *f)
 {
 	int i, count = 0;
 
-	while (*format != '\0')
+	while (*format)
 	{
 		i = 0;
 		if (*format == '%')
