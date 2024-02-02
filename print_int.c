@@ -15,7 +15,7 @@ int print_int(va_list *args)
 		_putchar('-');
 		_putchar('2');
 		count += 2;
-		return (print_int(147483648));
+		n = 147483648;
 	}
 	else if (n < 0)
 	{
