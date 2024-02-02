@@ -16,6 +16,7 @@ int _printf(const char *format, ...)
 		{'d', print_int},
 		{'i', print_int},
 		{'b', print_binary},
+		{'u', print_uint},
 		{'\0', NULL},
 	};
 
